@@ -1,0 +1,7 @@
+C:\Users\Weydson F\Documents\PaymentDesafio\tech-test-payment-api\src\PaymentApi\obj\Debug\net7.0\PaymentApi.csproj.AssemblyReference.cache
+C:\Users\Weydson F\Documents\PaymentDesafio\tech-test-payment-api\src\PaymentApi\obj\Debug\net7.0\PaymentApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Weydson F\Documents\PaymentDesafio\tech-test-payment-api\src\PaymentApi\obj\Debug\net7.0\PaymentApi.AssemblyInfoInputs.cache
+C:\Users\Weydson F\Documents\PaymentDesafio\tech-test-payment-api\src\PaymentApi\obj\Debug\net7.0\PaymentApi.AssemblyInfo.cs
+C:\Users\Weydson F\Documents\PaymentDesafio\tech-test-payment-api\src\PaymentApi\obj\Debug\net7.0\PaymentApi.csproj.CoreCompileInputs.cache
+C:\Users\Weydson F\Documents\PaymentDesafio\tech-test-payment-api\src\PaymentApi\obj\Debug\net7.0\PaymentApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Weydson F\Documents\PaymentDesafio\tech-test-payment-api\src\PaymentApi\obj\Debug\net7.0\PaymentApi.MvcApplicationPartsAssemblyInfo.cache
