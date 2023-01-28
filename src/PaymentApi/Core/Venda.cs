@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using PaymentApi.Requests;
 using PaymentApi.Utils;
 
 namespace PaymentApi.Core
@@ -13,10 +14,15 @@ namespace PaymentApi.Core
         public DateTime DataVenda { get; set; }
         public List<Produto> Produtos { get; set; }
         public StatusVenda Status { get; set; }
-        public Venda(Vendedor responsavel, List<Produto> produtos)
+        public Venda()
         {
-            Responsavel = responsavel;
-            Produtos = produtos;
+            
+        }
+        public Venda(VendaRequest venda, long id)
+        {
+            Id = id;
+            Responsavel = venda.Responsavel;
+            Produtos = venda.Produtos;
             DataVenda = DateTime.Now;
             Status = StatusVenda.AguardandoPagamento;
         }
