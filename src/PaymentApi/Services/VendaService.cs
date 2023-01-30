@@ -23,6 +23,13 @@ namespace PaymentApi.Services
                 throw new Exception("Problema na base de dados.");
             return response;
         }
+        public async Task<Venda> GetById(long id)
+        {
+            var response = await _vendaModel.GetVenda(id);
+            if(response == null)
+                throw new Exception("Id da venda não encontrado");
+            return response;
+        }
         
         public async Task<Venda> Create(VendaRequest request)
         {

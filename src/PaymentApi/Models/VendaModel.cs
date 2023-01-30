@@ -67,7 +67,7 @@ namespace PaymentApi.Models
                                 },
                             new Produto
                                 {
-                                    Id = 1,
+                                    Id = 3,
                                     Nome = "",
                                     Descricao = "",
                                     Valor = 0
